@@ -1,43 +1,28 @@
----------------------------------------------------------------------
-/////////////////////////////////////////////////////////////////////
----------------------------------------------------------------------
-
 MKDx8 Combo Randomizer
-Author: HighLystix/Eskimo
+Author: HighLystix/cvEskimo
 
-This program when executed, generates a number of files that contains
-a randomly selected Mario Kart 8 Deluxe character/kart build
+This program when executed, generates a number of files that contains a randomly selected Mario Kart 8 Deluxe character/kart build
 
----------------------------------------------------------------------
-/////////////////////////////////////////////////////////////////////
----------------------------------------------------------------------
+_______________________________________________________________________________________________________________________________________________________________________
 
 Notes
 
-- All folders in the directories (no file extensions) will reappear
-if deleted when the program runs
+- All folders in the directories (no file extensions) will reappear if deleted when the program runs
 
-- All text files (.txt) will reappear with default data if deleted
-when the program runs
+- All text files (.txt) will reappear with default data if deleted when the program runs
 
-- Modifying "ComponentsList.txt" will modify the available components
-and their statistics as long as the data follows the given structure
+- Modifying "ComponentsList.txt" will modify the available components and their statistics as long as the data follows the given structure
 (All components by default)
 
-- Modifying "ComponentsWhitelist.txt" will modify the whitelist of
-pickable components as long as the data follows the given structure
+- Modifying "ComponentsWhitelist.txt" will modify the whitelist of pickable components as long as the data follows the given structure
 (All components by default)
 
-- Modifying "PlayerList.txt" will modify the number of builds and
-the names attached to each one
+- Modifying "PlayerList.txt" will modify the number of builds and the names attached to each one
 ("Player 1", "Player 2", ..., "Player 12" by default)
 
----------------------------------------------------------------------
-/////////////////////////////////////////////////////////////////////
----------------------------------------------------------------------
+_______________________________________________________________________________________________________________________________________________________________________
 
-Build Directories in:
-"/C:\Users\[SYSTEM_USERNAME]\Documents\MKDX8-Combo-Randomizer"
+Build Directories in: "/C:\Users\[SYSTEM_USERNAME]\Documents\MKDX8-Combo-Randomizer"
 
 Directories:
 > MKDX8-Combo-Randomizer
@@ -53,9 +38,7 @@ Directories:
 
 > .exe (Placed in "MKDX8-Combo-Randomizer" is recommended)
 
----------------------------------------------------------------------
-/////////////////////////////////////////////////////////////////////
----------------------------------------------------------------------
+_______________________________________________________________________________________________________________________________________________________________________
 
 "ComponentsList.txt", Data Structure
 
@@ -85,9 +68,7 @@ AHn "number"		// AHn = Air Handling
    "number" Stat Value
       Any number in the form "0.00"
 
----------------------------------------------------------------------
-/////////////////////////////////////////////////////////////////////
----------------------------------------------------------------------
+_______________________________________________________________________________________________________________________________________________________________________
 
 "ComponentsWhitelist.txt", Data Structure
 
@@ -106,9 +87,7 @@ AHn "number"		// AHn = Air Handling
       "x" = On (checked)
       " " = Off (unchecked)
 
----------------------------------------------------------------------
-/////////////////////////////////////////////////////////////////////
----------------------------------------------------------------------
+_______________________________________________________________________________________________________________________________________________________________________
 
 "PlayerList.txt", Data Structure
 
@@ -118,7 +97,3 @@ AHn "number"		// AHn = Air Handling
 ...
 
 - Each line will generate a build under that lines name
-
----------------------------------------------------------------------
-/////////////////////////////////////////////////////////////////////
----------------------------------------------------------------------
